@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.417</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>1.420</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 
   <artifactId>smart-jenkins</artifactId>
@@ -23,11 +23,11 @@
       <name>Wenting Gu</name>
     </developer>
   </developers>
-  
+
   <scm>
-    <connection>scm:git:git@github.com/jenkinsci/smart-jenkins-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/smart-jenkins-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/smart-jenkins-plugin</url>
+    <connection>scm:git:git@github.com/flyingbag/smart-jenkins-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:flyingbag/smart-jenkins-plugin.git</developerConnection>
+    <url>https://github.com/flyingbag/smart-jenkins-plugin</url>
   </scm>
 
   <dependencies>
@@ -40,7 +40,7 @@
       <groupId>org.jdom</groupId>
       <artifactId>jdom</artifactId>
       <version>1.1</version>
-    </dependency>		
+    </dependency>
   </dependencies>
 
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
